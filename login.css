@@ -1,0 +1,188 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar{
+    height: 55px;
+    width: 100%;
+    border: 0.5px solid lightgray;
+    display: grid;
+    align-items: center;
+}
+#logo{
+    height: 52%;
+    margin-left: 1.5%;
+}
+
+/* Main Section  */
+#main{
+    display: flex;
+}
+
+/* Form  */
+#formdiv{
+    width: 33.5%;
+    background-color: #f4f4f4;
+    height: calc(100vh - 92px);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+#formdiv > h1{
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    margin-bottom: 1.125rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: block;
+}
+#select{
+    height: 2rem;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 1.125rem;
+    border: 1px solid black;
+}
+.label{
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+#span{
+    display: flex;
+    justify-content: space-between;
+}
+#forgot{
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    color: #63656b;
+    font-weight: 700;
+    cursor: pointer;
+}
+#email, #password{
+    margin-bottom: 1.120rem;
+    height: 2rem;
+    background-color: #eae9e9;
+    border: 1px solid black;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+#email:hover, #password:hover{
+    background-color: white;
+}
+#submit{
+    color: white;
+    border-radius: 3px;
+    height: 2rem;
+    background-color: #040444;
+    border : 1px solid #040444;
+    margin-bottom: 1.120rem;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #060664;
+}
+#checkbox{
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#log{
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 0.7rem;
+
+}
+#div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.120rem;
+}
+#formdiv > p{
+    text-align: center;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+}
+#formdiv > p > a{
+    font-size: 0.9rem;
+    color: #63656b;
+    font-weight: 700;
+}
+
+/* Brand section */
+#brandsec{
+    margin-bottom: 2rem;
+}
+#brandsec > h2{
+    color: #63656b;
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 4rem 0 1rem;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+#brandimg{
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+/* Image section */
+#img{
+    height: 35rem;
+    width: 65%;
+}
+#img > img{
+    width: 100%;
+    /* height: 35rem; */
+    height: 100%;
+}
+#footer{
+    display: flex;
+    background-color:#f4f4f4 ;
+    height: 2.3rem;
+    align-items: center;
+    border: 0.5px solid lightgray;
+}
+#footer > p{
+    color: #63656b;
+    font-size: 0.8rem;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+}
+#footer > p > span{
+    cursor: pointer;
+    color: #04048e;
+}
+/* Medium Screen  */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #logo{
+        width: 20%;
+    }
+}
+
+/* small screens */
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #logo{
+        width: 20%;
+        margin-left: 3.5%;
+    }
+    #formdiv{
+        width: 100%;
+    }
+    #img{
+        height: 0%;
+        width: 0%;
+    }
+}
