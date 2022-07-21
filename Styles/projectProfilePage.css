@@ -1,0 +1,144 @@
+/* -------------------------navbar 1 --------------------------------------- */
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#navbar1{
+    width: 100%;
+    margin: auto;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+/* -------Navbr1-Logo---------- */
+#navbar1>div:nth-child(1){
+    width: 15%;
+   margin-left: 10px;
+}
+#navbar1>div:nth-child(1)>a>img{
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+/* -----------------Navbar1-Text------------------- */
+#navbar1>div:nth-child(2){
+    width: 10%;
+    text-align: center;
+    border: none;
+    margin-right: 60px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar1>div:nth-child(2)>a{
+    text-decoration: none;
+    color: #2979ff;
+}
+#navbar1>div:nth-child(2):hover{
+    background-color: #e0e0e0;
+}
+
+/* -----------------navbar1-Icons----------------- */
+#navbar1>div:nth-child(3){
+    width: 5%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.icon{
+    width: 15px;
+    height: 20px;
+    /* color: red; */
+}
+
+
+/* -----------------------------Navbar2------------------------- */
+ #navbar2{
+    width: 100%;
+    margin: auto;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+/* ------------------Search Bar------------------------------- */
+ #searchImg{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#search{
+    width: 18%;
+}
+#search:hover{
+    border-bottom: 2px solid blue;
+} 
+#searchBar{
+
+    padding:  20px;
+    border: none;
+    /* text-decoration: underline;
+    text-decoration-style: solid; */
+}
+input:focus::placeholder {
+    color: transparent;
+}
+input:focus{
+    outline: none;
+}
+
+/* -----------------Filter and Sort button-------------------- */
+
+.label{
+    font-weight: bolder;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#navbar2>div:nth-child(2){
+    width: 33%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 500px;
+}
+.btn-group{
+    font-weight: bold;
+    color: black; /* White text */
+    padding: 10px; /*Some padding */
+    cursor: pointer; /* Pointer/hand icon*/
+     float: right; /* Float the buttons side by side */
+}
+.btn-group1{
+    padding: 10px;
+    color: black; /* White text */
+    font-weight: bold;
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+}
+.btn-group2{
+   font-weight: bold;
+    color: black; /* White text */
+    padding: 10px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+}
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+/* --------------------------Create Project Button-------------------- */
+
+#navbar2>div:nth-child(3)>a>button{
+    padding: 10px 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #2962ff ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
