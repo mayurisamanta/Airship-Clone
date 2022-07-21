@@ -1,0 +1,95 @@
+.navbar_main_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+
+}
+button {
+    border: none;
+    color: black;
+    font-size: 15px;
+}
+
+.logo {
+
+    height: 60px;
+}
+
+
+/* last two button white and blue start */
+.dropbtn1 {
+    margin-right: 20px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    padding: 7px 10px;
+    border-radius: 15px;
+    width: 100px;
+
+}
+
+.dropbtn1:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+.dropbtn2 {
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    padding: 7px 10px;
+    border-radius: 15px;
+    width: 100px;
+
+}
+
+/* last two button white and blue end */
+
+/* dropdown start */
+.dropbtnn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.drop_main_div {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop_main_div a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.drop_main_div a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .drop_main_div {
+    display: block;
+}
+
+/* end */
+
