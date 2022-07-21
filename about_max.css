@@ -1,0 +1,185 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#heading{
+    display: flex;
+
+}
+.img1{
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 60%;
+}
+
+#main{
+width: 100%;
+margin: auto;
+
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-right: 70px;
+}
+
+/* Bottom left text */
+.glass {
+    width: 50%;
+    height: 450px;
+    
+  background-color: black; 
+  position: absolute;
+  bottom: 30px;
+  left: -16px;
+  font-size: 50px;
+  text-align: left;
+  padding: 20px;
+
+  /* padding-left:60px;
+  padding-right:60px; */
+}
+#para>p:nth-child(2){
+    font-size: 20px;
+    margin-top: 30px;
+    color: grey;
+}
+
+#para{
+width: 90%;
+margin: auto;
+margin-top: 50px;
+font-style: initial;
+
+}
+
+#para2{
+    margin-top: 30px;
+    font-style: sans-serif;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    margin: 0px 128.5px;
+    padding: 0px 56px;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+
+}
+
+#parablock{
+    padding: 64px 0px 96px;
+}
+
+#para>button{
+    border-radius: 10px;
+    height: 40px;
+    background-color: blue;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 35%;
+    padding: px;
+    font-size: 20px;
+    color: white;
+}
+
+.headerblock{
+    color: #FF0D49;
+    margin: 0px 0px 8px;
+    margin-left: 5%;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+}
+
+.headerblock-title{
+    line-height: 44px;
+    letter-spacing: -.5px;
+    font-size: 30px;
+    margin-left: 5%;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+
+}
+.block2para1{
+        color: #020202;
+        margin-left: 5%;
+        font-family:  "GT America", Helvetica, Arial, sans-serif;
+
+}
+
+.block2para2{
+    color: #020202;
+    margin-left: 5%;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+
+    
+
+}
+
+#block2{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    height: 650px;
+   
+
+}
+#block3{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    height: 650px;
+   
+
+}
+
+.block2-1{
+    width: 45%;
+    margin: auto;
+
+}
+.block2-2{
+    
+    margin: auto;
+    
+    width: 45%;
+    
+}
+.block2-2>img{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    display: block;
+   
+}
+.block2-1>p:first-child{
+  
+    font-size: 25px;
+
+}
+.block2-1>p+h2{
+    margin-top: 38px;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.block2-1>p+h2+p{
+    
+    margin-top: 40px;
+    font-size: 22px;
+ 
+    
+}
+.block2-1>p+h2+p+p{
+    margin-top: 40px;
+    font-size: 22px;
+    
+}
