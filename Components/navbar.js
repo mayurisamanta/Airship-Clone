@@ -12,22 +12,26 @@ let navbar1 = ()=>{
         <a href="projectProfilePage.html"><h4>All Projects</h4></a>
     </div>
     <div class="dropdown">
-    <img onclick="myFunction1()" class="icon dropbtn" id="quemark" src="https://cdn-icons-png.flaticon.com/128/3916/3916709.png" />
+    <img  class="icon dropbtn" id="quemark" src="https://cdn-icons-png.flaticon.com/128/3916/3916709.png" />
     <div id="myDropdown1" class="dropdown-content">
-      <p>rakshikakadu</p>
-      <p>Account Info</p>
-      <p>Team Management</p>
-      <p>IP Allowlist </p>
-      <a href="index.html"><button>Log Out</button></a>
+      <h4>RESOURCES</h4>
+      <p>Docs</p>
+      <p>What's New</p>
+      <p>Blog</p>
+      <h4>HELP & FEEDBACK</h4>
+      <p>Support</p>
+      <p>Guides</p>
+      <p>FAQ</p>
+      <button class="btn">Submit Feedback</button>
     </div>
     <div class="dropdown">
-  <img onclick="myFunction()" class="icon dropbtn" id="profile" src="https://t4.ftcdn.net/jpg/00/65/77/27/240_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" />
+  <img  class="icon dropbtn" id="profile" src="https://t4.ftcdn.net/jpg/00/65/77/27/240_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" />
   <div id="myDropdown" class="dropdown-content" >
-    <p>rakshikakadu20@gmail.com</p>
+    <h4>rakshikakadu20@gmail.com</h4>
     <p>Account Info</p>
     <p>Team Management</p>
     <p>IP Allowlist </p>
-    <a href="index.html"><button>Log Out</button></a>
+    <a href="index.html"><button class="btn" >Log Out</button></a>
   </div>
 </div>
    
@@ -65,4 +69,4 @@ export {navbar1 , navbar2}
   // <div class="dropdown">
     // <button class="dropbtn">Dropdown</button>
     // <img class="icon dropbtn" src="https://cdn-icons-png.flaticon.com/128/3916/3916709.png"  alt="Error">
-    
+    //onclick="myFunction1()"   onclick="myFunction()"

@@ -179,7 +179,7 @@ input:focus{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -195,14 +195,20 @@ input:focus{
   }
   #myDropdown1{
     margin-top: 55px;
+    padding-left: 10px;
   }
   .dropdown-content p {
     color: black;
-    padding: 12px 16px;
+    padding: 6px 8px;
     text-decoration: none;
     display: block;
+    margin-left: 10px;
   }
-  
+  .btn{
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+  }
   .dropdown p:hover {background-color: #ddd;}
   
   .show {display: block;}
