@@ -4,124 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/index.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <script
     src="https://kit.fontawesome.com/24c494a6b6.js"
     crossorigin="anonymous"
   ></script>
     <title>Document</title>
-    <style>
-        #main{
-            position: relative;
-            height: 500px;
-            width: 100%;
-        }
-        img{
-            height: 500px;
-            width: 100%;
-        }
-        #upper{
-            display: flex;
-            justify-content: flex-end;
-            padding: 10px;
-        }
-        #upper div{
-            margin-right: 20px;
-        
-        }
-      
-        #login{
-            color: blue;
-        }
-        #login i{
-            color: grey;
-            margin-right: 20px;
-        }
-        #globe i{
-            margin-right:5px;
-            color: blue;
-
-        }
-        #globe{
-            color: blue;
-        }
-        #navbar{
-            display: flex;
-            justify-content: space-around;
-            padding: 30px;
-        }
-        h1{
-            width: 70%;
-            margin: auto;
-            padding: 10px;
-        }
-        #find{
-            margin-top: -20px;
-            width: 20%;
-        }
-        h1+h1{
-            width: 40%;
-        }
-
-        #container{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows:repeat(3,120px);
-            margin:auto;
-            border: 1px solid black;
-            width: 95%;
-            gap:1px;
-            font-size: 30px;
-            color: white;
-            
-    
-        }
-        #container div{
-            border: 1px solid black;
-            width:90%;
-            margin-bottom: 20px;
-            margin-right: 2px;
-            background-color: blueviolet;
-            align-items: flex-start;
-            padding: 20px;
-        }
-
-      
-        #fly div{
-            background-color: pink;
-            width: 10%;
-            height: 80%;
-            margin-top: -50px;
-           margin-left: 500px;
-           padding:25px;
-           
-           
-        }
-        #import{
-            width: 50%;
-        }
-        #book{
-            display: flex;
-            width: 90%;
-            margin: auto;
-
-        }
-        #book div{
-            border: 1px solid red;
-            padding: 20px;
-            margin-right: 10px;
-            
-        }
-        #book div img{
-            height: 280px;
-            width: 90%;
-        }
-       
-    </style>
 </head>
 <body>
     <!-- upper part -->
 <div id="upper">
-    <div id="login"><i class="fa-solid fa-magnifying-glass"></i>Login  |</div>
+    <div id="login"><i class="fa-solid fa-magnifying-glass"></i><a href="login.html">Login</a>  |</div>
+    
    <div id="globe"><i class="fa-solid fa-globe"></i>EN</div>
 </div>
 <hr>
@@ -137,74 +35,135 @@
 
 
    <!-- slide part -->
-  <div id="main">
+  <div id="upper_slido">
    <img src="images/1.JPG" alt="" id="image_data">
   </div>
 
   <!-- heading -->
-  <h1>Brands know mobile app experiences (MAX) deliver better business results. And they know Airship AXP accelerates time to value. But don’t take our word for it. </h1>
-   <h1>What can AXP do for your industry?</h1>
+  <h1>Brands know mobile app experiences (MAX) deliver better business results. And they know <span>Airship AXP accelerates time to value. </span>But don’t take our word for it. </h1>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> 
+          <div class="main">
+              <p>EARNINGS RESULTS FROM AIRSHIP CUSTOMER</p>
+              <p>AEO reports massive value from its app customers in Q4 2021 earnings call</p>
+              <div class="inn">
+                  <div>3.5x
+                      <p class="gre">Greater annual spend from app customers vs. web customers</p>
+                  </div>
+                  <div>2.5x
+                      <p class="gre">More annual transactions from app customers vs. web customers</p>
+                  </div>
+              </div>
+              <img src="https://www.airship.com/wp-content/uploads/2022/04/logos-AEO.png" alt="">
+          </div>
+        
+      
+      </div>
+       
+           <div class="swiper-slide">
+              <div class="main">
+                  <p>EARNINGS RESULTS FROM AIRSHIP CUSTOMER</p>
+                  <p>Chipotle reports digital sales soar in Q4 2021 earnings call</p>
+                  <div class="inn">
+                      <div>3.5x
+                          <p class="gre">Greater annual spend from app customers vs. web customers</p>
+                      </div>
+                      <div>26.5M
+                          <p class="gre">More annual transactions from app customers vs. web customers</p>
+                      </div>
+                  </div>
+                  <img src="https://www.airship.com/wp-content/uploads/2022/04/logos-AEO.png" alt="">
+              </div>
+            
+      </div>
+       
+          <div class="swiper-slide">
+              <div class="mainn">
+                  <p><span>"Airship’s App Experience Platform [AXP] provides us with new capabilities </span>that save valuable product development time and give our team faster ways to optimize each fan’s journey."</p>
+              <div class="ok">
+                  <div>
+                      <p>Michael Lowe</p>
+                      <p>Vice President, Digital Strategy & Partnerships</p>
+                  </div>
+                  <div>
+                      <img src="https://www.airship.com/wp-content/uploads/2022/04/logos-NBC-Sports.png" alt="">
+                  </div>
+              </div>
+              </div>
+             
+         
+      </div>
+      
+      <div class="swiper-slide">
+          <div class="mainnn">
+              <p>"With Airship’s real-time notifications and in-app automation we’ve increased our retention rate 3X and grown our active user base by 3.5X .... The new capabilities in <span>Airship’s App Experience Platform [AXP] will help to dramatically accelerate our time-to-market and agility </span>in optimizing user onboarding and collecting in-app feedback from users to continue to improve their app experience.”</p>
+          <div class="ok">
+              <div>
+                  <p>Joseph Brooks</p>
+                  <p>Head of Product</p>
+              </div>
+              <div>
+                  <img src="https://www.airship.com/wp-content/uploads/2022/04/logos-Shell.png" alt="">
+              </div>
+          </div>
+          </div>
+           </div>
+     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  
+</div>
+ 
+ 
+   <h1 id="what">What can AXP do for your industry?</h1>
    <h1 id="find">
     Find out here.</h1>
 
 
     <!-- arrow slideshow -->
     <div id="container">
-        <div id="fly">Fly
-            <div>inner</div>
-        </div>
+        <div class="fly">Fly</div>
         <div>Invest</div>
         <div>Entertain</div>
         <div>Shop</div>
         <div>Play</div>
         <div>Connect</div>
     </div>
-    <h1 id="import">Learn more about MAX, AXP and their strategic importance.</h1>
+
+    <h1 id="import">Learn more about<span>MAX, AXP </span>and their strategic importance.</h1>
 
     <!-- book section -->
     <div id="book">
         <div>
             <img src="https://www.airship.com/wp-content/uploads/2022/04/AXP-mock-up.png" alt="">
-            <h3>AXP (App Experience Platform)</h3>
-            <p>One platform, start to finish, designed to work the way your brand should work: seamlessly.</p>
+            <h3 >AXP (App Experience Platform)</h3>
+            <h3 class="max">One platform, start to finish, designed to work the way your brand should work: seamlessly.</h3>
+            <h3 class="learn"><a href="more.html">Learn more</a><i class="fa-solid fa-angle-right"></i></h3>
+           
+          
         </div>
         <div>
-            <img src="https://www.airship.com/wp-content/uploads/2022/04/AXP-mock-up.png" alt="">
+            <img src="https://www.airship.com/wp-content/uploads/2022/04/MAX-mock-up.png" alt="">
             <h3>MAX (Mobile App Experience)</h3>
-            <p>Top brands understand there’s a new leading practice they need to master.</p>
+            <h3 class="max">Top brands understand there’s a new leading practice they need to master.</h3>
+            <h3 class="learn">Learn more<i class="fa-solid fa-angle-right"></i></h3>
         </div>
         <div>
-            <img src="https://www.airship.com/wp-content/uploads/2022/04/AXP-mock-up.png" alt="">
-            <h3>Experience Trends in 2022 for the Mobile Consumer</h3>
-            <p>A rapidly changing regulatory and technology landscape that prioritizes customer privacy, choice and experience.</p>
+            <img src="https://www.airship.com/wp-content/uploads/2022/04/9-Trends-mock-up.png" alt="">
+            <h3 >Experience Trends in 2022 for the Mobile Consumer</h3>
+            <h3 class="max">A rapidly changing regulatory and technology landscape that prioritizes customer privacy, choice and experience.</h3>
+            <h3 class="learn">Learn more<i class="fa-solid fa-angle-right"></i></h3>
         </div>
     </div>
     
       
 </body>
 </html>
-<script>
-   
-    function first(){
-        document.getElementById("image_data").src="images/privacy.JPG"
-    }
-    
-    function second(){
-        document.getElementById("image_data").src="images/axaa.JPG"
-    }
-    function third(){
-        document.getElementById("image_data").src="images/3.JPG"
-    }
-    function four(){
-        document.getElementById("image_data").src="images/1.JPG"
-    }
-    setInterval(first,2000)
-    setInterval(second,4000)
-    setInterval(third,6000)
-    setInterval(four,8000)
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="Scripts/index.js"></script>
 
 
-    
-    
-</script>
 
