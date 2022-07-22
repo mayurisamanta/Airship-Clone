@@ -52,28 +52,131 @@ h1{
     width: 40%;
     margin-top: 100px;
 }
-
+        
 #container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows:repeat(3,120px);
     margin:auto;
-    border: 1px solid black;
+   
     width: 95%;
     gap:1px;
-    font-size: 30px;
-    color: white;
-    
-
-}
+   }
 #container div{
-    border: 1px solid black;
-    width:90%;
-    margin-bottom: 20px;
-    margin-right: 2px;
-    align-items: flex-start;
-    padding: 20px;
+width: 95%;
+margin-bottom: 20px;
+    
+    
 }
+#fly{
+    background-color: blue;
+}
+
+
+#fly .flyy{
+    width: 75%;
+    
+    height: 63%;
+    background-color:blueviolet;
+    color: white;
+    font-size: 40px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-top: -60px;
+    
+}
+
+#inv{
+    background-color: blue;
+}
+
+
+#inv .inve{
+    width: 75%;
+    height: 63%;
+    background-color:orangered;
+    color: white;
+    font-size: 40px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-top: -60px;
+}
+
+#enter{
+    background-color: blue;
+}
+
+
+#enter .inve{
+    width: 75%;
+    height: 63%;
+    background-color:rgb(238, 136, 170);
+    color: white;
+    font-size: 40px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-top: -60px;
+}
+
+#shop{
+    background-color: blue;
+}
+
+
+#shop .inve{
+    width: 75%;
+    height: 63%;
+    background-color:lightblue;
+    color: white;
+    font-size: 40px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-top: -60px;
+}
+
+#play{
+    background-color: blue;
+}
+
+
+#play .inve{
+    width: 75%;
+    height: 63%;
+    background-color:deeppink;
+    color: white;
+    font-size: 40px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-top: -60px;
+}
+
+#connect{
+    background-color: blue;
+}
+
+
+#connect .inve{
+    width: 75%;
+    height: 63%;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 40px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-top: -60px;
+}
+
+
+.fa-arrow-right{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 550px;
+    color: white;
+}
+
+
+
+
 
 
 #import{
@@ -236,4 +339,72 @@ margin-top: 30px;
 font-size: 25px;
 font-weight: bold;
 margin-top: 30px;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#fotout{
+   margin-top: 100px;
+    height: 650px;
+    background-color: black;
+
+}
+#footerpart{
+    display: flex;
+    /* border: 1px solid gold; */
+    height: 480px;
+}
+#footerpart div{
+    
+    width: 20%;
+    padding: 40px;
+}
+#footerpart p{
+    color: white;
+    font-size:large;
+    font-weight: bold;
+}
+#footerpart h4{
+    color: white;
+    font-weight: bold;
+    font-size:large;
+}
+
+#aiir img{
+    width:100%;
+    height: 80px;
+    margin-right: 5px;
+}
+
+#legal{
+    display: flex;
+    width: 95%;
+border-top: 1px solid grey;
+    margin: auto;
+    padding: 5px;
+    margin-top: 20px;
+}
+#legal div{
+    display: flex;
+    width: 60%;
+    /* border: 1px solid khaki; */
+    margin-right: 30px;
+    
+    
+}
+#fran{
+    display: flex;
+    justify-content: flex-end;
+}
+#legal div p{
+    margin-right: 20px;
+    font-weight: bold;
+    color:grey;
+}
+.fa-brands{
+    margin-right: 25px;
+    color: grey;
+    font-size: 25px;
 }
