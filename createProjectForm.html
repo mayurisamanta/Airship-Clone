@@ -1,13 +1,76 @@
-d
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Airship - New Project</title>
+    <link rel="stylesheet" href="./Styles/projectProfilePage.css">
+    <link rel="stylesheet" href="./Styles/createProjectForm.css">
 </head>
 <body>
-    
+    <div id="navbar1">
+
+    </div>
+
+    <div id="main">
+        <div id="head">
+            <h1>New Project</h1>
+            <p>A container for messaging engagement and channel configuration.</p>
+        </div>
+        <div id="form">
+            <label for="" class="topSpace">Project Name</label>
+            <br>
+            <input type="text" id="projectName" class="inputWidth">
+            <br><br>
+            <label for="" class="topSpace">Icon <span id="opt" class="label2">(Optional)</span></label>
+            <div>
+                
+                <div class="placeholder-icon" ></div>
+                <input type="file" name="icon" id="id_icon" class="inputWidth">
+                
+            </div>
+
+            <label for="" class="topSpace">Type<span class="label2">(Cannot be changed Later)</span></label>
+            <br>
+            <select name="" id="select1" class="formSelect inputWidth" >
+                <option value="Test">Test: Use to send messages to your test audience.</option>
+                <option value="Live">Live: Use to send messages to your live audience.</option>
+            </select>
+
+            <br>
+            <label for="" class="topSpace">Industry</label>
+            <br>
+            <select id="id_industry" name="industry" class="select-select inputWidth">
+                <option value="-1" >Choose industry</option>
+                <option value="1">Business</option>
+                <option value="2">Charities, Foundations, and Non-Profit</option>
+                <option value="3">Education</option>
+                <option value="4">Entertainment</option>
+                <option value="5">Finance &amp; Insurance</option>
+                <option value="6">Food &amp; Drink</option>
+                <option value="7">Gambling</option>
+                <option value="8">Gaming</option>
+                <option value="16">Government</option>
+                <option value="9">Media</option>
+                <option value="10">Medical, Health &amp; Fitness</option>
+                <option value="11">Retail</option>
+                <option value="12">Social</option>
+                <option value="13">Sports &amp; Recreation</option>
+                <option value="14">Travel &amp; Transportation</option>
+                <option value="15">Utility &amp; Productivity</option>
+          
+            </select>
+            <br>
+                <button id="cp" class="topSpace" >Create Project</button>
+
+                <a href="projectProfilePage.html" class="topSpace" ><button id="cancel" >cancel</button></a>
+        </div>
+
+    </div>
 </body>
 </html>
+<script src="./Scripts/createProjectForm.js" type="module">
+
+</script>

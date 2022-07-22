@@ -51,11 +51,19 @@ body{
 }
 .icon{
     width: 15px;
-    height: 20px;
+    height: 15px;
+    display: inline-block;
     /* color: red; */
 }
-
-
+#profile{
+    width: 30px;
+    height: 30px;
+   
+}
+#quemark{
+    margin-top: 10px;
+   
+}
 /* -----------------------------Navbar2------------------------- */
  #navbar2{
     width: 100%;
@@ -91,12 +99,17 @@ input:focus{
 }
 
 /* -----------------Filter and Sort button-------------------- */
-
+.sortCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .label{
+    display: inline-block;
     font-weight: bolder;
     font-size: 10px;
     margin-right: 10px;
-    margin-top: 30px;
+   
 }
 #navbar2>div:nth-child(2){
     width: 33%;
@@ -142,3 +155,60 @@ input:focus{
     font-weight: bold;
     cursor: pointer;
 }
+
+/* --------------------------Profile Dropdown----------------------------- */
+.dropbtn {
+    /* background-color: #3498DB; */
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 40px;
+    margin-right: 130px;
+  }
+  #myDropdown {
+    
+    margin-top: -10px;
+    margin-left: -170px;
+    /* margin-left: -1000px; */
+  }
+  #myDropdown1{
+    margin-top: 55px;
+    padding-left: 10px;
+  }
+  .dropdown-content p {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+  }
+  .btn{
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .dropdown p:hover {background-color: #ddd;}
+  
+  .show {display: block;}
