@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar{
+    height: 55px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    background-color: black;
+}
+#logo{
+    height: 52%;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+/* Main  */
+#main{
+    background-color: #f4f4f4;
+}
+
+/* first section  */
+#secone{
+    width: 100%;
+    background-color: black;
+    height: 16rem;
+}
+#dots{
+    width: 10rem;
+    height: 8rem;
+    position: absolute;
+    right: 2rem;
+    top: 10rem;
+    background: url(https://go.airship.com/assets/5e3f896c02158841e84167955be3ccfd7c1961b1/images/dots.svg);
+}
+#sectwo {
+    position: absolute;
+    top: 10rem;
+    left: 25%;
+    right: 25%;
+}
+#sectwo > h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 1rem;
+    text-align: center;
+    color: white;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+}
+#innersec {
+    background-color: #f4f4f4;
+}
+
+/* Options */
+#optionsec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: black;
+    padding: 1.125rem 2rem;
+}
+#optiondiv{
+    display: flex;
+    align-items: center;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    font-size: 0.889rem;
+    color: white;
+    font-weight: bold;
+}
+#circle{
+    padding: 4px 10px;
+    border: 1px solid #004bff;
+    background-color: #004bff;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+}
+#underline{
+    width: 32%;
+    height: 0.5rem;
+    background-color: #004bff;
+}
+
+/* form  */
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    padding:  1.125rem 2rem;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+#form > input{
+    font-weight: 400;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+#form > input:hover{
+    border: 1px solid #004bff;
+}
+#submit{
+    border-radius: 5px;
+    padding: 0.5rem 1.125rem;
+    color: white;
+    font-weight: 700;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    background-color: #040444;
+    border : 1px solid #040444;
+    width: fit-content;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: grid;
+    margin-left: 74%;
+}
+#form > label{
+    font-size: 0.889rem;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: #060664;
+}
+#form > h1{
+    font-size: 1.125rem;
+    margin-bottom: 0.2rem;
+}
+#form > p{
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+    font-size: 00.889rem;
+    margin-bottom: 1rem;
+}
+
+/* Second Section  */
+#secthree{
+    width: 100%;
+    height: 47vh;
+}
+
+/* footer  */
+#footer{
+    display: flex;
+    background-color:#f4f4f4 ;
+    height: 35px;
+    align-items: center;
+    border: 0.5px solid lightgray;
+}
+#footer > p{
+    color: #63656b;
+    font-size: 0.79rem;
+    font-family:  "GT America", Helvetica, Arial, sans-serif;
+}
+#footer > p > span{
+    cursor: pointer;
+    color: #04048e;
+}
+
+
+/* Medium Screen  */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #logo{
+        width: 20%;
+    }
+}
+
+/* small screens */
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #logo{
+        width: 20%;
+        margin-left: 3.5%;
+    }
+    #dots{
+        height: 0;
+        width: 0;
+    }
+    #sectwo{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    #sectwo > h1{
+        position: absolute;
+        top: -12rem;
+        right: 15%;
+        left: 15%;
+    }
+}
