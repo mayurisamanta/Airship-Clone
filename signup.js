@@ -17,7 +17,9 @@ document.getElementById("submit").addEventListener("click", (event)=>{
             p.innerText = "This company name is already taken. Please choose another.";
             p.style.border = "1px solid #ffb700";
             p.style.padding = "5px";
-            document.getElementById("companyerr").append(p);
+            let div = document.getElementById("companyerr");
+            div.innerHTML = null;
+            div.append(p);
             return;        
         }
     };
