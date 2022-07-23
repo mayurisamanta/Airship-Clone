@@ -447,7 +447,7 @@ function navbar(){
        </ul>
     </nav>
     <!-- navigation menu end -->
- </div>
-    `
+ </div>`
+    
 }
 export {navbar} 

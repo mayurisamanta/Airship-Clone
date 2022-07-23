@@ -1,0 +1,94 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-hedar{
+    margin-top: 200px;
+}
+
+.wraper{
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    position: relative;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.Hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.HeroHeaderBlock-title h2{
+    font-size: 22px;
+    font-family:"GT America", Helvetica, Arial, sans-serif;
+
+}
+
+.HeroHeaderBlock>p {
+    color: #ff0d49;
+    font-family:"GT America", Helvetica, Arial, sans-serif;
+    font-weight: inherit;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.HeroHeaderBlock>h1{
+    font-family:"GT America", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+
+}
+
+#strstr{
+    color: #ff0d49;
+    font-family:"GT America", Helvetica, Arial, sans-serif;
+    font-weight: inherit;
+
+}
+#btn-btn2{
+    padding: 12px;
+    width: 30%; 
+    font-size: 20px;
+    font-family:"GT America", Helvetica, Arial, sans-serif;
+    border-radius: 30px;
+    background: #044BFF;
+    text-align: center;
+    color: #fff;
+    border-color: #004bff;
+}
+
+.blocksection1{
+    position: relative;
+    background: #F2F2F2;
+    padding: 96px 0px 0px;
+    font-family:"GT America", Helvetica, Arial, sans-serif;
+}
+
+#innrblock{
+    background-color: #ff0d49;
+}
+
+#span{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.grid1{
+    display: flex;
+    margin: auto;
+    gap: 20px;
+}
+
+
