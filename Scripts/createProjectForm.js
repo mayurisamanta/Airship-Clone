@@ -45,3 +45,4 @@ let storeData = (event)=>{
     window.location.href="../projectProfilePage.html";
 }
 document.querySelector("#cp").addEventListener("click", storeData);
+

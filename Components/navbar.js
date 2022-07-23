@@ -57,10 +57,14 @@ let navbar2 = ()=>{
         <button id="filterWithTeam" class="btn-group1">Team</button>
         <button id="filterWithOwner" class="btn-group1">Owner</button>
         
-        <button id="filterByTest" class="btn-group2">Test</button>
-        <button id="filterByLive" class="btn-group2">Live</button>
+        <button id="filterByTest" class="btn-group2" value="test">Test</button>
+        <button id="filterByLive" class="btn-group2" value="live">Live</button>
+      </div>
+      <div id="appendbtn">
       </div>
     </div>
+    
+
     <div> 
     <a href="createProjectForm.html"><button id="createProjectButton">Create Project</button></a>
 </div>`
