@@ -1,4 +1,4 @@
-import {navbar1} from "../Components/navbar.js";
+import {navbar1} from "../Components/afterLoginNavbar.js";
 
 document.querySelector("#navbar1").innerHTML=navbar1();
 
@@ -45,3 +45,4 @@ let storeData = (event)=>{
     window.location.href="../projectProfilePage.html";
 }
 document.querySelector("#cp").addEventListener("click", storeData);
+
