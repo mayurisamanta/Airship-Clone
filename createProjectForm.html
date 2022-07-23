@@ -8,7 +8,8 @@
     <title>Airship - New Project</title>
     <link rel="stylesheet" href="./Styles/projectProfilePage.css">
     <link rel="stylesheet" href="./Styles/createProjectForm.css">
-   
+    <link rel="icon" href="https://s3.amazonaws.com/tracxn-data-image/logo/company/3811dcc06863998ab4112321adf1a8">
+
 </head>
 <body>
     <div id="navbar1">
@@ -23,19 +24,19 @@
         <div id="form">
             <label for="" class="topSpace">Project Name</label>
             <br>
-            <input type="text" id="projectName" class="inputWidth">
+            <input type="text" id="projectName" class="inputWidth" required>
             <br><br>
             <label for="" class="topSpace">Icon <span id="opt" class="label2">(Optional)</span></label>
             <div>
                 
                 <div class="placeholder-icon" ></div>
-                <input type="file" name="icon" id="id_icon" class="inputWidth">
+                <input type="file" name="icon" id="id_icon" class="inputWidth"  accept="image/png, image/jpeg">
                 
             </div>
 
             <label for="" class="topSpace">Type<span class="label2">(Cannot be changed Later)</span></label>
             <br>
-            <select name="" id="select1" class="formSelect inputWidth" >
+            <select name="" id="select1" class="formSelect inputWidth" required>
                 <option value="Test">Test: Use to send messages to your test audience.</option>
                 <option value="Live">Live: Use to send messages to your live audience.</option>
             </select>
@@ -43,7 +44,7 @@
             <br>
             <label for="" class="topSpace">Industry</label>
             <br>
-            <select id="id_industry" name="industry" class="select-select inputWidth">
+            <select id="id_industry" name="industry" class="select-select inputWidth" required>
                 <option value="-1" >Choose industry</option>
                 <option value="1">Business</option>
                 <option value="2">Charities, Foundations, and Non-Profit</option>

@@ -40,25 +40,26 @@ let navbar1 = ()=>{
 }
 
 let navbar2 = ()=>{
-    return `<div id="search">
-    <img class="icon" id="searchImg" src="https://www.flaticon.com/svg/vstatic/svg/3917/3917132.svg?token=exp=1658326068~hmac=494921a43064ad8c57a92930ad60d05b" alt="error">
-    <input type="search" id="searchBar" placeholder="SEARCH PROJECTS">
+    return `
+    <div id="search">
+      <img class="icon" id="searchImg" src="https://www.flaticon.com/svg/vstatic/svg/3917/3917132.svg?token=exp=1658326068~hmac=494921a43064ad8c57a92930ad60d05b" alt="error">
+      <input type="search" id="searchBar" placeholder="SEARCH PROJECTS">
     </div>
     <div>
-    <div class="sortCenter">
+      <div class="sortCenter">
         <label  class="label">SORT:</label>
         <button id="sortByDate" class="btn-group">Date Created <span></span></button>
         <button id="sortByName" class="btn-group">Name<span></span></button>
         
-    </div>
-    <div class="sortCenter">
+      </div>
+      <div class="sortCenter">
         <label class="label">FILTER:</label>
         <button id="filterWithTeam" class="btn-group1">Team</button>
         <button id="filterWithOwner" class="btn-group1">Owner</button>
         
         <button id="filterByTest" class="btn-group2">Test</button>
         <button id="filterByLive" class="btn-group2">Live</button>
-    </div>
+      </div>
     </div>
     <div> 
     <a href="createProjectForm.html"><button id="createProjectButton">Create Project</button></a>
