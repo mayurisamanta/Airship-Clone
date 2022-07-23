@@ -43,13 +43,15 @@ h1{
     padding: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+   
 }
 #find{
     margin-top: -60px;
-    width: 15%;
+    width: 20%;
 }
 #what{
-    width: 40%;
+    width: 50%;
     margin-top: 100px;
 }
         
@@ -186,7 +188,12 @@ margin-bottom: 20px;
     display: flex;
     width: 90%;
     margin: auto;
+   
 
+}
+#book h3{
+    font-family:Arial, Helvetica, sans-serif;
+   
 }
 #book div{
    
@@ -200,10 +207,14 @@ margin-bottom: 20px;
 }
 .max{
 color:gray;
+line-height: 30px;
+font-size:20px;
+font-family:Arial, Helvetica, sans-serif;
+
 
 }
 .learn{
-    color: blue;
+    color: rgb(125, 125, 224);
     cursor: pointer;
     
 }
@@ -325,7 +336,7 @@ width: 80px;
 margin-left: 200px;
 }
 span{
-color: red;
+color:#FF0D49;
 }
 .mainnn{
 border: 15px solid blue;
