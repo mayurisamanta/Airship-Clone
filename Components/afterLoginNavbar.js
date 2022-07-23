@@ -27,11 +27,11 @@ let navbar1 = ()=>{
     <div class="dropdown">
   <img  class="icon dropbtn" id="profile" src="https://t4.ftcdn.net/jpg/00/65/77/27/240_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" />
   <div id="myDropdown" class="dropdown-content" >
-    <h4>rakshikakadu20@gmail.com</h4>
+    <h4 id="emailId"></h4>
     <p>Account Info</p>
     <p>Team Management</p>
     <p>IP Allowlist </p>
-    <a href="index.html"><button class="btn" >Log Out</button></a>
+    <a href="index.html"><button class="btn">Log Out</button></a>
   </div>
 </div>
    

@@ -1,11 +1,8 @@
-import { navbar1 , navbar2 } from "../Components/navbar.js";
+import { navbar1 , navbar2 } from "../Components/afterLoginNavbar.js";
 
 document.querySelector("#navbar1").innerHTML=navbar1();
 document.querySelector("#navbar2").innerHTML=navbar2();
 
-
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
 import{myFunction,myFunction1} from "../Components/fetch.js";
 
 document.querySelector("#quemark").addEventListener("click" , myFunction1);
@@ -84,8 +81,8 @@ let sortByName = ()=>{
         console.log(clientProjectData,count);
         
         clientData(clientProjectData);
-       
         count++;
+
     }else if(count==1){
         clientProjectData = clientProjectData.sort((a,b)=>{
             if(a.projectName > b.projectName) return -1;
@@ -166,3 +163,12 @@ document.querySelector("#searchBar").addEventListener("search",searchData);
 //         func;
 //     },delay);
 // }
+
+let object = JSON.parse(localStorage.getItem("login"));
+let email = object.email;
+let appendEmail = ()=>{
+    document.querySelector("#emailId").innerText= email;
+}
+
+
+appendEmail();
