@@ -26,23 +26,21 @@ a{
 }
 /*header*/
 .header{
-	position: absolute;
+    position: fixed;
+}
+
+.header{
+	
+	/* position: absolute; */
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	width: 100%;
 	left:0;
 	top:0;
+	margin: 0;
 	z-index: 99;
-	padding: 15px;
+	/* padding: 15px; */
 }
-.header-main{
-	background-color: #ffffff;
-	display: flex;
-	width: 100%;
-	justify-content: space-evenly;
-	/* align-items: center; */
-	padding: 10px 0;
-	border-radius: 4px;
-}
+
 .header .logo{
 	padding: 0 15px;
 }
@@ -51,6 +49,17 @@ a{
 	text-transform: capitalize;
    
 	font-weight: 600;
+}
+
+.header-main {
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 0;
+    border-radius: 4px;
+    margin-top: 10px;
 }
 .header .nav-menu{
 	padding: 0 15px;
@@ -111,14 +120,16 @@ a{
 }
 
 .dropbtn1:hover {
-    background-color: rgb(0, 75, 255);
+ background-color:  rgb(0, 75, 255);;
+
     color: white;
     border: 1px solid white;
 }
 
  .dropbtn2 {
     margin-right: 20px;
-    background-color: rgb(0, 75, 255);
+   background-color:  rgb(0, 75, 255);;
+
 	text-align: center;
     color: #ffffff;
     border: 1px solid rgb(0, 75, 255);
@@ -326,7 +337,8 @@ a{
 }
 
 .saleAnc:hover {
-    background-color: rgb(0, 75, 255);
+   background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+
     
     opacity: 0.9;
     color: white;
@@ -365,7 +377,8 @@ img{
 
 .drop_MDIV_Div .heading_four:hover {
     padding: 10px;
-    background-color: rgb(0, 75, 255);
+   background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+
     
     color: white;
 
@@ -393,7 +406,8 @@ img{
 }
 .clo:hover,
 .clo1:hover {
-    background-color: rgb(0, 75, 255); 
+   background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+ 
     opacity: 0.9;
     color: white;
     border-radius: 5px;
@@ -409,7 +423,8 @@ img{
 }
 .heading_four:hover{
 	padding: 10px;
-    background-color: rgb(0, 75, 255);
+   background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+
     color: white;
     border-radius: 5px;
 } 
@@ -438,7 +453,8 @@ img{
   .platform_heading:hover{
     /* font-weight: 600; */
     padding: 8px;
-    background-color: rgb(0, 75, 255);
+   background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+
     color: white;
     /* font-size: 20px; */
   }
@@ -453,7 +469,8 @@ height: 75px;
    
   }
    .inner_platform_heading:hover{
-    background-color: rgb(0, 75, 255);
+   background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+
     color: white;
     padding: 3px;
  }
@@ -478,7 +495,8 @@ height: 75px;
   }
    .saleAnc1:hover{
       padding: 3px;
-	  background-color: rgb(0, 75, 255);
+	 background-image: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+
       color: white;
   }
   .p{
