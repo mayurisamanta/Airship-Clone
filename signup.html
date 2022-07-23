@@ -36,15 +36,21 @@
                         <option value="eu">eu EU</option>
                     </select>
                     <label class="label" for="firstname">First Name</label>
-                    <input  id="firstname" type="text">
+                    <input required id="firstname" type="text">
                     <label class="label" for="lastname">Last Name</label>
-                    <input  id="lastname" type="text">
+                    <input required  id="lastname" type="text">
                     <label  class="label" for="email">Work email</label>
-                    <input  type="email" id="email">
+                    <input required  type="email" id="email">
                     <label class="label" for="company">Company name</label>
-                    <input  id="company" type="text">
+                    <input required id="company" type="text">
+                    <div id="companyerr"></div>
+                    <div id="robot">
+                        <input required id="box" type="checkbox">
+                        <span> I'm not a robot!</span>
+                        <img id="capcha" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/2048px-RecaptchaLogo.svg.png" alt="">
+                    </div>
                     <label class="conditions">
-                        <input id="checkbox" type="checkbox"> 
+                        <input required id="checkbox" type="checkbox"> 
                         <span>By creating an account, you agree to the <span class="privacy">Terms of Online Service</span>  and <span class="privacy">Privacy Policy.</span>  <span>
                     </label>
                     <label  class="conditions">
@@ -54,8 +60,25 @@
                     <button id="submit">Create account</button>
                     
                 </form>
+                <p>Already have an account? <a href="login.html">Log In</a></p>
             </div>
         </div>
+        <div id="brandsec">
+            <div id="brands">
+
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/air-france.png" alt="">
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/time.png" alt="">
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/chipotle.svg" alt="">
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/gamestop.png" alt="">
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/nbc-universal.svg" alt="">
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/home-depot.png" alt="">
+                <img src="https://go.airship.com/assets/21bcfd213015afcd00d065f30c163be08f89c213/images/customer-logos/vodafone.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>© 2009-2022 Airship Group, Inc. All rights reserved. <span>Privacy Statement 
+            Cookies Settings</span></p>
     </div>
 </body>
 </html>
