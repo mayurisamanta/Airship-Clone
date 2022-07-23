@@ -376,11 +376,13 @@ margin-top: 30px;
     color: white;
     font-size:large;
     font-weight: bold;
+    cursor: pointer;
 }
 #footerpart h4{
     color: white;
     font-weight: bold;
     font-size:large;
+    cursor: pointer;
 }
 
 #aiir img{
