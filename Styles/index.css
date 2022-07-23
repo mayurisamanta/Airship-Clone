@@ -356,7 +356,7 @@ margin-top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#fotout{
+/* #fotout{
    margin-top: 100px;
     height: 650px;
     background-color: black;
@@ -364,7 +364,6 @@ margin-top: 30px;
 }
 #footerpart{
     display: flex;
-    /* border: 1px solid gold; */
     height: 480px;
 }
 #footerpart div{
@@ -402,7 +401,6 @@ border-top: 1px solid grey;
 #legal div{
     display: flex;
     width: 60%;
-    /* border: 1px solid khaki; */
     margin-right: 30px;
     
     
@@ -420,4 +418,4 @@ border-top: 1px solid grey;
     margin-right: 25px;
     color: grey;
     font-size: 25px;
-}
+} */

@@ -1,0 +1,70 @@
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#fotout{
+   margin-top: 100px;
+    height: 650px;
+    background-color: black;
+
+}
+#footerpart{
+    display: flex;
+    /* border: 1px solid gold; */
+    height: 480px;
+}
+#footerpart div{
+    
+    width: 20%;
+    padding: 40px;
+}
+#footerpart p{
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    cursor: pointer;
+}
+#footerpart h4{
+    color: white;
+    font-weight: bold;
+    font-size:large;
+    cursor: pointer;
+}
+
+#aiir img{
+    width:100%;
+    height: 80px;
+    margin-right: 5px;
+}
+
+#legal{
+    display: flex;
+    width: 95%;
+border-top: 1px solid grey;
+    margin: auto;
+    padding: 5px;
+    margin-top: 20px;
+}
+#legal div{
+    display: flex;
+    width: 60%;
+    /* border: 1px solid khaki; */
+    margin-right: 30px;
+    
+    
+}
+#fran{
+    display: flex;
+    justify-content: flex-end;
+}
+#legal div p{
+    margin-right: 20px;
+    font-weight: bold;
+    color:grey;
+}
+.fa-brands{
+    margin-right: 25px;
+    color: grey;
+    font-size: 25px;
+}

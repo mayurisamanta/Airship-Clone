@@ -31,6 +31,9 @@ navigation: {
   prevEl: ".swiper-button-prev",
 },
 });
+import {footer } from "../components/footer.js";
+document.getElementById("fotout").innerHTML=footer()
+
 
 // import { navbar1 } from "../Components/navbar.js";
 
