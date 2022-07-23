@@ -10,24 +10,26 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
-
+.header{
+    position: fixed;
+}
 
 .Services-Main-block {
     display: flex;
     height: 1200px;
-   
+   width: 100%;
     position: relative;
+    /* border: 2px solid red; */
 }
 
 
 
 .one-block {
     height: 600px;
-   
     background-color: black;
 }
 
-.block .p1 {
+.block .n1 {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 5px;
@@ -43,7 +45,7 @@
     margin-bottom: 20px;
 }
 
-.block .p2 {
+.block .n2 {
     font-size: 22px;
     word-spacing: -1px;
     line-height: 36px;
@@ -75,6 +77,11 @@
     background-color: black;
     border: 1px solid blue;
     color: blue;
+}
+
+.Services{
+    margin-top: 120px;
+    width: 100%;
 }
 
 /* service block */
@@ -120,24 +127,26 @@
     color: white;
     width: 60%;
     height: 90%;
-
-
     font-size: 25px;
-
     position: absolute;
-    margin: 5% 10% 5% 40%;
+    /* margin: 5% 0% 5% 40%; */
 }
 
-.d1 {
+.p1 {
     padding: 10% 10% 10% 15%;
+    margin: 50px 0 0 40%;
 }
 
-.d2 {
+.p2 {
     padding: 10% 25% 10% 15%;
+    margin: 50px 0 0 40%;
+
 }
 
-.d3 {
+.p3 {
     padding: 10% 25% 10% 15%;
+    margin: 50px 0 0 40%;
+
 }
 
 
@@ -166,7 +175,7 @@
 }
 
 .three-block .achor {
-    margin-left: 40%;
+    margin-left: 44%;
     width: 250px;
     text-align: center;
     background-color: white;
@@ -250,9 +259,8 @@ span {
 
 .two-two-block li {
     margin-bottom: 30px;
+    /* margin-left: 174px; */
 }
-
-
 
 
 #dots::after{
@@ -287,3 +295,147 @@ span {
    
     opacity: 0.5;
 }
+
+
+
+
+
+
+/*media query */
+@media only screen and (max-width: 1144px) {
+    #dots::after {
+        bottom: 212px;
+    }
+    #dots2::after {
+        left: 115px;
+        bottom: 12%;
+    } 
+ 
+ }
+
+@media only screen and (max-width: 900px)  {
+
+    .Services-Main ,.one-block,.Services-Main-block{
+        width:100%
+    }
+
+    
+    .two-one-block h2 {
+        font-size: 23px;
+        padding: 0 40px;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .two-two-block li {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    #dots::after {
+        height: 64px;
+        width: 211px;
+        bottom: 22%;
+        opacity: 0.5;
+    }
+    #dots2::after {
+      
+        height: 70px;
+        left: 83px;
+        width: 220px;
+        bottom: 9%;
+        opacity: 0.5;
+    }
+
+    .two-one-block p {
+        color: white;
+        padding: 0 40px;
+        word-spacing: 1px;
+        line-height: 24px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .three-block .achor {
+        margin-left: 35%;
+        width: 250px;
+        text-align: center;
+        background-color: white;
+        font-size: 17px;
+        color: blue;
+        border-radius: 20px;
+        padding: 12px 34px;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .block h1 {
+        font-size: 30px;
+    }
+    .block .p2 {
+        font-size: 15px;
+    }
+    .block a {
+        font-size: 13px;
+        padding: 13px 30px;
+    }
+    .two-one-block p {
+        font-size: 10px;
+    }
+    .two-one-block h2 {
+        font-size: 17px;
+    }
+    .two-two-block li {
+       
+        font-size: 15px;
+    }
+    .three-two-block h2 {
+        font-size: 14px;
+        padding: 1px 25px;
+        margin-bottom: 10px;
+    }
+    .three-two-block p {
+        padding: 0px 32px;
+        word-spacing: 1px;
+       
+        font-size: 11px;
+       
+        margin-bottom: 30px;
+    }
+    #dots2::after {
+        height: 71px;
+        left: 48px;
+        width: 115px;
+        bottom: 12%;
+    }
+    .three-two-block a {
+        margin-left: -8%;
+        /* padding-left: 2%; */
+        font-size: 12px;
+        margin-bottom: 52px;
+    }
+    #dots::after {
+        height: 64px;
+        width: 112px;
+        bottom: 234px;
+        opacity: 0.5;
+    }
+    .three-block .achor {
+        margin-left: 24%;
+        
+    }
+    .overlay {
+        z-index: 9;
+        margin: 26% 0% 31% 10%;
+    }
+    .two-one-block {
+       
+        width: 45%;
+       
+    }
+    .two-two-block {
+       
+        margin: 5% 11% 5% 44%;
+    }
+}
+ 

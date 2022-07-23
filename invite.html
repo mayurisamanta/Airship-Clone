@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Airship - Welcome</title>
-    <link rel="stylesheet" href="./Styles/welcome.css">
+    <title>Airship - Invite</title>
+    <link rel="stylesheet" href="./Styles/invite.css">
     <link rel="icon" href="https://s3.amazonaws.com/tracxn-data-image/logo/company/3811dcc06863998ab4112321adf1a8">
 </head>
 <body>
@@ -17,7 +17,7 @@
     </div>
     <div id="main">
         <div id="sectwo">
-            <h1>Welcome abroad!</h1>
+            <h1>All hands on deck.</h1>
             <div id="innersec">
                 <div id="optionsec">
                     <div id="optiondiv">
@@ -36,14 +36,16 @@
                 </div>
                 <div id="underline"></div>
                 <form id="form" action="">
-                    <h1>Keep your account safe.</h1>
-                    <p>Passwords must be atleast 8 characters, including one number and one special character.</p>
-                    <label for="password1">Password</label>
-                    <input id="password1" type="password">
-                    <label for="password2">Confirm Password</label>
-                    <input id="password2" type="password">
+                    <h1>Invite your team.</h1>
+                    <p>Send an invite along with some helpful resources on getting started to your team.</p>
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
                     <div id="passerr"></div>
-                    <button id="submit">Save and continue</button>
+                    <button id="add">Add another</button>
+                    <div>
+                        <button id="skip">Skip</button>
+                        <button id="submit">Send invites</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -54,4 +56,4 @@
     </div>
 </body>
 </html>
-<script src="./Scripts/welcome.js"></script>
+<script src="./Scripts/invite.js"></script>

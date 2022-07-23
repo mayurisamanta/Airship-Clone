@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link rel="stylesheet" href="/Styles/services.css">
+   <link rel="stylesheet" href="./Styles/services.css">
+   <link rel="stylesheet"  href="Styles/navbar.css">
 </head>
 
 <body>
-    <section class="Navbar">
+    <header class="header">
+        <div id="navbar" class="container" >
+          
+        </div>
+     </header>
 
-    </section>
-
-  
-    <section class="Services">
+    <!-- SERVICE -->
+  <section class="Services">
         <div class="Services-Main ">
             <div class=" one-block">
                 <div class="block">
-                    <p class="p1">AIRSHIP SERVICES</p>
+                    <p class="n1">AIRSHIP SERVICES</p>
                     <h1>Your Success Is Our Success</h1>
-                    <p class="p2">From sharing best practices implemented by brands leading the way in multi-channel
+                    <p class="n2">From sharing best practices implemented by brands leading the way in multi-channel
                         customer engagement to finding new ways technology and data can support your goals, every member
                         of our services team is laser-focused on your success.</p>
                     <a href="#">Contact Us</a>
@@ -36,11 +39,11 @@
                         leading brands create deeper, more data-driven connections with customers, we help you get off
                         to a quick start, uncover new growth opportunities, and continuously improve your results.</p>
                         <div id="dots"> 
-                           
+                          
                         </div>
                 </div>
 
-                <div class="Services-block two-two-block d1">
+                <div class="Services-block two-two-block p1">
                     <ul type="none">
                         <li> <span>&#10148;</span> Execute new multichannel campaigns that
                             harness the full capabilities of the Airship Customer Engagement Platform to help you
@@ -50,7 +53,7 @@
                         <li> <span>&#10148;</span> Discover, define, deploy and deliver
                             managed solutions, campaigns, and technical implementations with our proven methodologies
                         </li>
-                        <li></li> <span>&#10148;</span> Improve your marketing performance with
+                        <li><span>&#10148;</span> Improve your marketing performance with
                         industry benchmarks and Airship marketing maturity models </li>
                         <li> <span>&#10148;</span> Meet your strategic priorities through
                             insightful discovery, solution road mapping, and ROI workshops </li>
@@ -67,10 +70,10 @@
                         need when you need it.</p>
                     <a href="http://">Learn more ></a>
                     <div id="dots2"> 
-                        <!-- dot vali image -->
+                      
                     </div>
                 </div>
-                <div class="Services-block two-two-block d2">
+                <div class="Services-block two-two-block p2">
                     <ul type="none">
                         <li><span>&#10148;</span> Expert level assistance for issues you encounter </li>
                         <li><span>&#10148;</span> Fast response times for critical issues </li>
@@ -82,13 +85,58 @@
                     </ul>
                 </div>
             </div>
-           
+            <div class="Services-Main-block two-block">
+                <div class="Services-block two-one-block overlay">
+                    <h2>Account Management</h2>
+                    <p>Airship’s account managers are experienced, dedicated, trusted advisors who are committed to your
+                        success. With years of digital marketing experience, your account manager becomes a vital member
+                        of your team, proactively working to understand your business objectives and finding innovative
+                        solutions that help you meet and exceed your goals. Our clients regularly tell us that their
+                        account managers are game-changers in helping them stay ahead of the ever-changing digital
+                        marketing curve, and delivering more effective, innovative customer experiences.</p>
+                        <div id="dots"> 
+                         
+                        </div>
+                </div>
+                <div class="Services-block two-two-block p3">
+                    <ul type="none">
+                        <li><span>&#10148;</span> Proactively work with you to understand and help you meet your
+                            business objectives</li>
+                        <li><span>&#10148;</span> Identify innovative strategies and solutions that accelerate success
+                        </li>
+                        <li><span>&#10148;</span> Provide guidance and insight on new product features and
+                            implementation options</li>
+                        <li><span>&#10148;</span> Be your advocate and the main point of contact across cross-functional
+                            teams within Airship
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="three-block ">
+                <h2>Ready to Learn More?</h2>
+                <p>We’d love to understand your business goals and how our services teams can help you succeed.</p>
+                <div class="achor">
+                    <a href="#">Let's Talk Servicse</a>
+                </div>
+
+            </div>
+
+
         </div>
     </section>
+
 </body>
 
-
 </html>
+
+<script type="module">
+    import {navbar} from "./Components/mainNavbar.js" ;
+let n = document.getElementById("navbar")
+n.innerHTML= navbar();
+ 
+  
+</script>
+<script type="module" src="./Scripts/nav.js"></script>
 
 
 

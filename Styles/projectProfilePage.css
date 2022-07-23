@@ -113,7 +113,7 @@ input:focus{
    
 }
 #navbar2>div:nth-child(2){
-    width: 33%;
+    width: 40%;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
@@ -121,6 +121,8 @@ input:focus{
     margin-right: 500px;
 }
 .btn-group{
+  border-radius: 3px;
+  border: 0.1px solid black;
     font-weight: bold;
     color: black; /* White text */
     padding: 10px; /*Some padding */
@@ -128,6 +130,8 @@ input:focus{
      float: right; /* Float the buttons side by side */
 }
 .btn-group1{
+  border-radius: 3px;
+  border: 0.1px solid black;
     padding: 10px;
     color: black; /* White text */
     font-weight: bold;
@@ -135,6 +139,8 @@ input:focus{
   float: right; /* Float the buttons side by side */
 }
 .btn-group2{
+  border-radius: 3px;
+  border: 0.1px solid black;
    font-weight: bold;
     color: black; /* White text */
     padding: 10px;
@@ -143,6 +149,13 @@ input:focus{
 }
 .btn-group button:not(:last-child) {
     border-right: none; /* Prevent double borders */
+}
+
+#cancel{
+  padding:  10px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
 /* --------------------------Create Project Button-------------------- */
 
@@ -235,6 +248,10 @@ input:focus{
     background-color: white;
     border-radius: 4px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .cards:hover{
+    margin-top: -4px;
+    margin-bottom: 4px;
   }
   .default{
     width: 40px;
