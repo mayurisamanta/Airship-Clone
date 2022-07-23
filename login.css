@@ -26,10 +26,10 @@
 #formdiv{
     width: 33.5%;
     background-color: #f4f4f4;
-    height: calc(100vh - 92px);
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    position: absolute;
 }
 #formdiv > h1{
     font-family:  "GT America", Helvetica, Arial, sans-serif;
@@ -138,11 +138,15 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+#brandimg > img{
+    width: 7rem;
+}
 
 /* Image section */
 #img{
     height: 35rem;
-    width: 65%;
+    width: 100%;
+    margin-left: 20%;
 }
 #img > img{
     width: 100%;
@@ -169,6 +173,9 @@
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #logo{
         width: 20%;
+    }
+    #brandimg > img{
+        width: 5rem;
     }
 }
 
