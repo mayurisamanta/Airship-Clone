@@ -11,6 +11,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 10px;
+    background-color: white;
 }
 #upper div{
     margin-right: 20px;
@@ -58,15 +59,15 @@ h1{
 #container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows:repeat(3,120px);
+    grid-template-rows:repeat(3,180px);
     margin:auto;
    
     width: 95%;
     gap:1px;
    }
 #container div{
-width: 95%;
-margin-bottom: 20px;
+width: 97%;
+margin-bottom: 25px;
     
     
 }
@@ -76,15 +77,15 @@ margin-bottom: 20px;
 
 
 #fly .flyy{
-    width: 75%;
+    width: 80%;
     
-    height: 63%;
+    height:100%;
     background-color:blueviolet;
     color: white;
     font-size: 40px;
     align-items: flex-start;
-    padding: 18px;
-    margin-top: -60px;
+padding: 30px;
+    margin-top: -90px;
     
 }
 
@@ -94,14 +95,14 @@ margin-bottom: 20px;
 
 
 #inv .inve{
-    width: 75%;
-    height: 63%;
+    width: 80%;
+    height:100%;
     background-color:orangered;
     color: white;
     font-size: 40px;
     align-items: flex-start;
-    padding: 18px;
-    margin-top: -60px;
+    padding: 30px;
+    margin-top: -90px;
 }
 
 #enter{
@@ -110,14 +111,14 @@ margin-bottom: 20px;
 
 
 #enter .inve{
-    width: 75%;
-    height: 63%;
+    width: 80%;
+    height: 100%;
     background-color:rgb(238, 136, 170);
     color: white;
     font-size: 40px;
     align-items: flex-start;
-    padding: 18px;
-    margin-top: -60px;
+    padding: 30px;
+    margin-top: -90px;
 }
 
 #shop{
@@ -126,14 +127,14 @@ margin-bottom: 20px;
 
 
 #shop .inve{
-    width: 75%;
-    height: 63%;
+    width: 80%;
+    height:100%;
     background-color:lightblue;
     color: white;
     font-size: 40px;
     align-items: flex-start;
-    padding: 18px;
-    margin-top: -60px;
+    padding: 30px;
+    margin-top: -90px;
 }
 
 #play{
@@ -142,14 +143,14 @@ margin-bottom: 20px;
 
 
 #play .inve{
-    width: 75%;
-    height: 63%;
+    width: 80%;
+    height: 100%;
     background-color:deeppink;
     color: white;
     font-size: 40px;
     align-items: flex-start;
-    padding: 18px;
-    margin-top: -60px;
+    padding: 30px;
+    margin-top: -90px;
 }
 
 #connect{
@@ -158,21 +159,21 @@ margin-bottom: 20px;
 
 
 #connect .inve{
-    width: 75%;
-    height: 63%;
+    width: 80%;
+    height: 100%;
     background-color:yellowgreen;
     color: white;
     font-size: 40px;
     align-items: flex-start;
-    padding: 18px;
-    margin-top: -60px;
+    padding: 30px;
+    margin-top: -90px;
 }
 
 
 .fa-arrow-right{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 550px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 700px;
     color: white;
 }
 
@@ -419,3 +420,167 @@ border-top: 1px solid grey;
     color: grey;
     font-size: 25px;
 } */
+
+ @media all and (min-width: 421px) and (max-width: 780px){
+   #upper{
+    width: 100%;
+   }
+   #upper_slido{
+    width: 110%;
+   }
+   h1{
+    width: 80%;
+    margin: auto;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+   
+}
+#what{
+    width: 90%;
+    margin-left:100px ;
+    font-size: 40px;
+}
+#find{
+    width: 90%;
+    margin-left: 100px;
+    margin-top:-15px;
+    font-size: 40px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows:repeat(6,80px);
+    margin:auto;
+   
+    width: 90%;
+    gap:1px;
+    
+}
+#container div{
+    width: 100%;
+}
+
+#fly .flyy{
+    width: 60%;
+    
+    height: 40%;
+    background-color:blueviolet;
+    color: white;
+    font-size: 20px;
+    margin-top:-51px ;
+   }
+   
+#connect .inve{
+    width: 60%;
+    height:40%;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 20px;
+    margin-top:-51px ;
+  
+}
+   
+#shop .inve{
+    width: 60%;
+    height:40%;
+    background-color:rgb(147, 217, 240);
+    color: white;
+    font-size: 20px;
+    margin-top:-51px ;
+  
+}
+   
+#play .inve{
+    width: 60%;
+    height:40%;
+    background-color:deeppink;
+    color: white;
+    font-size: 20px;
+    margin-top:-51px ;
+  
+}
+   
+#inv .inve{
+    width: 60%;
+    height:40%;
+    background-color:orangered;
+    color: white;
+    font-size: 20px;
+    margin-top:-51px ;
+  
+}
+
+#enter .inve{
+    width: 60%;
+    height: 40%;
+    background-color:rgb(238, 136, 170);
+    color: white;
+    font-size: 20px;
+    margin-top:-51px ;
+   
+}
+
+.fa-arrow-right{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 400px;
+    color: white;
+}
+#import{
+
+    font-size: 40px;
+}
+#book{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+   
+
+}
+#book h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+#book div{
+   
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+#book div img{
+    height: 200px;
+    width: 100%;
+}
+.max{
+color:gray;
+line-height: 30px;
+font-size:20px;
+font-family:Arial, Helvetica, sans-serif;
+
+
+}
+#login{
+    font-size: 20px; 
+}
+
+#login i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+#globe i{
+    margin-right:5px;
+    font-size: 20px;
+
+}
+#globe{
+    font-size: 20px;
+}
+
+
+
+
+}

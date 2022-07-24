@@ -1,15 +1,15 @@
 function first(){
-    document.getElementById("image_data").src="images/privacy.JPG"
+  document.getElementById("image_data").src="images/privacy.JPG"
 }
 
 function second(){
-    document.getElementById("image_data").src="images/axaa.JPG"
+  document.getElementById("image_data").src="images/axaa.JPG"
 }
 function third(){
-    document.getElementById("image_data").src="images/3.JPG"
+  document.getElementById("image_data").src="images/3.JPG"
 }
 function four(){
-    document.getElementById("image_data").src="images/1.JPG"
+  document.getElementById("image_data").src="images/1.JPG"
 }
 setInterval(first,2000)
 setInterval(second,4000)
@@ -23,18 +23,19 @@ slidesPerGroup: 1,
 loop: true,
 loopFillGroupWithBlank: true,
 pagination: {
-  el: ".swiper-pagination",
-  clickable: true,
+el: ".swiper-pagination",
+clickable: true,
 },
 navigation: {
-  nextEl: ".swiper-button-next",
-  prevEl: ".swiper-button-prev",
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
 },
 });
 import {footer } from "../components/footer.js";
 document.getElementById("fotout").innerHTML=footer()
 
+import {navbar} from "../Components/mainNavbar.js" ;
+let n = document.getElementById("navbar")
+n.innerHTML= navbar();
 
-// import { navbar1 } from "../Components/navbar.js";
 
-// document.querySelector("#navbar1").innerHTML=navbar1();
