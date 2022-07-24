@@ -54,6 +54,8 @@ let footer=()=>{
         <p>Francais</p>
         <p>Deutsch</p>
     </div>
+    </div>
+    <div id="coo"><i class="fa-solid fa-comment"></i></div>
 `
 
 }

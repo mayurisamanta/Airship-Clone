@@ -68,3 +68,16 @@ border-top: 1px solid grey;
     color: grey;
     font-size: 25px;
 }
+
+#coo{
+    display: flex;
+    background-color: blue;
+    width: 80px;
+    padding: 22px;
+   margin-left: 1650px;
+   border-radius: 10px;
+}
+.fa-comment{
+    color: white;
+    font-size: 30px;
+}

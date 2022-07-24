@@ -34,8 +34,8 @@ navigation: {
 import {footer } from "../components/footer.js";
 document.getElementById("fotout").innerHTML=footer()
 
-// import {navbar} from "../Components/mainNavbar.js" ;
-// let n = document.getElementById("navbar")
-// n.innerHTML= navbar();
+import {navbar} from "../Components/mainNavbar.js" ;
+let n = document.getElementById("navbar")
+n.innerHTML= navbar();
  
 
