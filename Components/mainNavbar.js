@@ -230,7 +230,7 @@ function navbar(){
     return `
     <div class="header-main">
     <!-- <div class="logo"> -->
-       <a href="https://www.airship.com/" class="logo"> <img src="./images/AirshipLOGO.jpg" alt=""></a>
+       <a href="index.html" class="logo"> <img src="./images/AirshipLOGO.jpg" alt=""></a>
     <!-- </div> -->
     <div class="open-nav-menu">
        <span></span>

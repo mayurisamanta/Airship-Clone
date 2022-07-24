@@ -16,6 +16,8 @@ body.hidden-scrolling{
 	/* max-width: 1170px; */
 	margin:auto;
     background-color: white;
+    /* align-items: center; */
+    padding-bottom: 10px;
 }
 ul{
 	list-style: none;
@@ -67,12 +69,12 @@ a{
 }
 .menu{
 	width: 100%;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 .header .menu > .menu-item{
 	display: inline-block;
 	
-	margin-left: 50px;
+	margin-left: 10px;
 	position: relative;
 }
 .header .menu > .menu-item > a{
@@ -110,7 +112,7 @@ a{
 }
 
 .dropbtn1 {
-    margin-right: 20px;
+    margin-right: 5px;
     background-color: white;
    text-align: center;
     color:  rgb(0, 75, 255);
@@ -128,7 +130,7 @@ a{
 }
 
  .dropbtn2 {
-    margin-right: 20px;
+    /* margin-right: 5px; */
    background-color:  rgb(0, 75, 255);;
 
 	text-align: center;

@@ -1,6 +1,6 @@
 let navbar1 = ()=>{
     return ` <div>
-    <a href="projectProfilePage.html">
+    <a href="index.html">
         <img src="https://go.airship.com/assets/75ac4e3598fc7916f372c3b5cb3599c7b5fa2ec0/images/airship-logo-horizontal.svg" alt="Error">
     </a>
   
