@@ -15,7 +15,7 @@ body.hidden-scrolling{
 .container{
 	/* max-width: 1170px; */
 	margin:auto;
-    /* background-color: white; */
+    background-color: white;
 }
 ul{
 	list-style: none;
