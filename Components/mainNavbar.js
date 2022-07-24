@@ -244,7 +244,7 @@ function navbar(){
        </div>
        <ul class="menu">
           <li class="menu-item">
-             <a href="#" class="anchorDis">About Max</a>
+             <a href="about_max.html" class="anchorDis">About Max</a>
           </li>
 
           <li class="menu-item menu-item-has-children">
@@ -378,7 +378,7 @@ function navbar(){
           </li>
 
           <li class="menu-item">
-             <a href="#" class="anchorDis">Customers</a>
+             <a href="customer.html" class="anchorDis">Customers</a>
           </li>
 
           <li class="menu-item menu-item-has-children">
