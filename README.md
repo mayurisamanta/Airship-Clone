@@ -5,7 +5,7 @@
 
 > [Airship](https://www.airship.com/) (formerly Urban Airship) is an American company that provides marketing and branding services. Airship allows companies to generate custom messages to consumers via push notifications, SMS messaging, and similar, and provides customer analytics services.
 
-> Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days with a team of six members and implemented the maximum user centric functionality.
+> Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days with a team of five members and implemented the maximum user centric functionality.
 
 # 👉 [Click here](https://cool-cascaron-6523af.netlify.app/) to go through our work 
 
