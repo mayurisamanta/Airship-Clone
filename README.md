@@ -7,7 +7,7 @@
 
 > Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in five days with a team of five members and implemented the maximum user centric functionality.
 
-# 👉 [Click here](https://cool-cascaron-6523af.netlify.app/) to go through our work 
+# 👉 [Click here](https://airship-in.netlify.app/) to go through our work 
 
 # Features
 
