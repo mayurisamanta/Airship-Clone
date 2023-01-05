@@ -5,7 +5,7 @@
 
 > [Airship](https://www.airship.com/) (formerly Urban Airship) is an American company that provides marketing and branding services. Airship allows companies to generate custom messages to consumers via push notifications, SMS messaging, and similar, and provides customer analytics services.
 
-> Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days with a team of five members and implemented the maximum user centric functionality.
+> Cloned Airship.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in five days with a team of five members and implemented the maximum user centric functionality.
 
 > Group name - dirty-surprise-9313.
 
@@ -83,13 +83,13 @@ Worked on Login, Signup, Setup page
 Worked on Homepage, Footer page
 
 #### Rahul Deshmane
->Github:[codexrahuld](https://github.com/codexrahuld)
+>Github: [codexrahuld](https://github.com/codexrahuld)
 Worked on Customer, About MAX page
 
 #### Rakshika Kadu
->Github:[Rakshikakadu](https://github.com/Rakshikakadu)
+>Github: [Rakshikakadu](https://github.com/Rakshikakadu)
 Worked on Project page
 
 #### Pallavi Arvind Bobale
->Github:[Pallu27899](https://github.com/Pallu27899)
+>Github: [Pallu27899](https://github.com/Pallu27899)
 Worked on Navbar, Service page 
